@@ -11,9 +11,10 @@ We use the [LayerZero Omnichain Mesh Network](https://docs.layerzero.network/v2/
 - script the entire process in solidity to be executed via foundry
 - [step 1. configure the OFT programmatically](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/01_OFTConfigure.s.sol)
 - [step 2. update OFT peers](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/02_UpdateOFTPeersTransactions.sol)
-- [step 3. transfer ownership to the correct gnosis](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/03_OFTOwnershipTransfer.s.sol)
-- [step 4. test the OFT send](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/04_OFTSend.sol)
-- [step 5. set all the correct rates limits](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/05_ProdRateLimit.sol)
+- [step 3. validate configuration](https://github.com/etherfi-protocol/weETH-cross-chain/blob/master/test/OFTDeployment.t.sol)
+- [step 4. transfer ownership to the correct gnosis](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/03_OFTOwnershipTransfer.s.sol)
+- [step 5. test the OFT send](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/04_OFTSend.sol)
+- [step 6. set all the correct rates limits](https://github.com/etherfi-protocol/Etherfi-SyncPools/blob/etherfi-upgradeable-deploy-OP-OFT/script/05_ProdRateLimit.sol)
 
 ### Sync Pools & surrounding contracts
 
